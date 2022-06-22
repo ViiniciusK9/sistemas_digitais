@@ -1,0 +1,3 @@
+// iverilog teste.v
+// vvp a.out 
+// gtkwave dump.vcd 
