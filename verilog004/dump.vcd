@@ -1,0 +1,58 @@
+$date
+	Sun Jul 17 18:44:11 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 16 ! s0 [15:0] $end
+$var reg 16 " ee0 [15:0] $end
+$var reg 16 # ee1 [15:0] $end
+$var reg 1 $ h0 $end
+$scope module u0 $end
+$var wire 16 % e0 [15:0] $end
+$var wire 16 & e1 [15:0] $end
+$var wire 1 $ h $end
+$var wire 16 ' soma [15:0] $end
+$var wire 16 ( mult [15:0] $end
+$var reg 16 ) s [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx )
+b110 (
+b101 '
+b10 &
+b11 %
+x$
+b10 #
+b11 "
+bx !
+$end
+#2
+b101 !
+b101 )
+0$
+#4
+b110 !
+b110 )
+1$
+#6
+0$
+b110 '
+b1001 (
+b11 #
+b11 &
+#8
+b1001 !
+b1001 )
+1$
+#10
