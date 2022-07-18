@@ -1,5 +1,5 @@
 $date
-	Sun Jul 17 18:44:11 2022
+	Mon Jul 18 15:10:31 2022
 $end
 $version
 	Icarus Verilog
@@ -9,50 +9,475 @@ $timescale
 $end
 $scope module testbench $end
 $var wire 16 ! s0 [15:0] $end
-$var reg 16 " ee0 [15:0] $end
-$var reg 16 # ee1 [15:0] $end
-$var reg 1 $ h0 $end
+$var reg 16 " a0 [15:0] $end
+$var reg 16 # b0 [15:0] $end
+$var reg 16 $ c0 [15:0] $end
+$var reg 1 % clk0 $end
+$var reg 1 & inicio0 $end
+$var reg 1 ' reset0 $end
+$var reg 16 ( x0 [15:0] $end
+$scope module f0 $end
+$var wire 16 ) a [15:0] $end
+$var wire 16 * b [15:0] $end
+$var wire 16 + c [15:0] $end
+$var wire 1 % clk $end
+$var wire 1 & inicio $end
+$var wire 1 ' reset $end
+$var wire 16 , saida [15:0] $end
+$var wire 16 - x [15:0] $end
+$var wire 16 . s [15:0] $end
+$var wire 2 / m2_to_m2 [1:0] $end
+$var wire 2 0 m1_to_m1 [1:0] $end
+$var wire 2 1 m0_to_m0 [1:0] $end
+$var wire 1 2 lx_to_lx $end
+$var wire 1 3 ls_to_ls $end
+$var wire 1 4 lh_to_lh $end
+$var wire 1 5 h_to_h $end
+$scope module bc_0 $end
+$var wire 1 % clk $end
+$var wire 1 & inicio $end
+$var wire 1 ' rst $end
+$var parameter 3 6 s0 $end
+$var parameter 3 7 s1 $end
+$var parameter 3 8 s2 $end
+$var parameter 3 9 s3 $end
+$var parameter 3 : s4 $end
+$var parameter 3 ; s5 $end
+$var parameter 3 < s6 $end
+$var reg 3 = estado [2:0] $end
+$var reg 1 5 h $end
+$var reg 1 4 lh $end
+$var reg 1 3 ls $end
+$var reg 1 2 lx $end
+$var reg 2 > m0 [1:0] $end
+$var reg 2 ? m1 [1:0] $end
+$var reg 2 @ m2 [1:0] $end
+$upscope $end
+$scope module bo_0 $end
+$var wire 16 A a [15:0] $end
+$var wire 16 B b [15:0] $end
+$var wire 16 C c [15:0] $end
+$var wire 1 % clk $end
+$var wire 1 5 h $end
+$var wire 1 4 lh $end
+$var wire 1 3 ls $end
+$var wire 1 2 lx $end
+$var wire 2 D m0 [1:0] $end
+$var wire 2 E m1 [1:0] $end
+$var wire 2 F m2 [1:0] $end
+$var wire 16 G mu_0_to_mu_2 [15:0] $end
+$var wire 16 H resultado [15:0] $end
+$var wire 16 I x [15:0] $end
+$var wire 16 J u0_to_re [15:0] $end
+$var wire 16 K re_x_to_mu [15:0] $end
+$var wire 16 L re_s_to_mu [15:0] $end
+$var wire 16 M re_h_to_mu [15:0] $end
+$var wire 16 N mu_2_to_u0 [15:0] $end
+$var wire 16 O mu_1_to_u0 [15:0] $end
+$var wire 16 P mu_0_to_mu_1 [15:0] $end
+$var parameter 16 Q exx $end
+$scope module mu_0 $end
+$var wire 16 R entrada_0 [15:0] $end
+$var wire 16 S entrada_1 [15:0] $end
+$var wire 16 T entrada_2 [15:0] $end
+$var wire 16 U entrada_3 [15:0] $end
+$var wire 2 V entrada_controle [1:0] $end
+$var reg 16 W saida [15:0] $end
+$upscope $end
+$scope module mu_1 $end
+$var wire 16 X entrada_0 [15:0] $end
+$var wire 2 Y entrada_controle [1:0] $end
+$var wire 16 Z entrada_3 [15:0] $end
+$var wire 16 [ entrada_2 [15:0] $end
+$var wire 16 \ entrada_1 [15:0] $end
+$var reg 16 ] saida [15:0] $end
+$upscope $end
+$scope module mu_2 $end
+$var wire 16 ^ entrada_1 [15:0] $end
+$var wire 2 _ entrada_controle [1:0] $end
+$var wire 16 ` entrada_3 [15:0] $end
+$var wire 16 a entrada_2 [15:0] $end
+$var wire 16 b entrada_0 [15:0] $end
+$var reg 16 c saida [15:0] $end
+$upscope $end
+$scope module re_h $end
+$var wire 1 % clk $end
+$var wire 1 4 l $end
+$var wire 16 d d [15:0] $end
+$var reg 16 e q [15:0] $end
+$upscope $end
+$scope module re_s $end
+$var wire 1 % clk $end
+$var wire 1 3 l $end
+$var wire 16 f d [15:0] $end
+$var reg 16 g q [15:0] $end
+$upscope $end
+$scope module re_x $end
+$var wire 1 % clk $end
+$var wire 16 h d [15:0] $end
+$var wire 1 2 l $end
+$var reg 16 i q [15:0] $end
+$upscope $end
 $scope module u0 $end
-$var wire 16 % e0 [15:0] $end
-$var wire 16 & e1 [15:0] $end
-$var wire 1 $ h $end
-$var wire 16 ' soma [15:0] $end
-$var wire 16 ( mult [15:0] $end
-$var reg 16 ) s [15:0] $end
+$var wire 16 j e0 [15:0] $end
+$var wire 16 k e1 [15:0] $end
+$var wire 1 5 h $end
+$var wire 16 l soma [15:0] $end
+$var wire 16 m mult [15:0] $end
+$var reg 16 n s [15:0] $end
+$upscope $end
+$upscope $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 $comment Show the parameter values. $end
 $dumpall
+b0 Q
+b110 <
+b101 ;
+b100 :
+b11 9
+b10 8
+b1 7
+b0 6
 $end
 #0
 $dumpvars
-bx )
-b110 (
-b101 '
-b10 &
-b11 %
-x$
+bx n
+bx m
+bx l
+bx k
+bx j
+b0 i
+b11 h
+b0 g
+bx f
+b0 e
+bx d
+bx c
+b0 b
+b0 a
+b0 `
+bx _
+bz ^
+bx ]
+b0 \
+b0 [
+b0 Z
+bx Y
+bx X
+bx W
+bx V
+b11 U
+b10 T
+b11 S
+b0 R
+bx P
+bx O
+bx N
+b0 M
+b0 L
+b0 K
+bx J
+b11 I
+b0 H
+bz G
+bx F
+bx E
+bx D
+b11 C
+b10 B
+b11 A
+bx @
+bx ?
+bx >
+bx =
+x5
+x4
+x3
+x2
+bx 1
+bx 0
+bx /
+b0 .
+b11 -
+b0 ,
+b11 +
+b10 *
+b11 )
+b11 (
+0'
+0&
+0%
+b11 $
 b10 #
 b11 "
-bx !
+b0 !
 $end
+#1
+1%
 #2
-b101 !
-b101 )
-0$
+0%
+1'
+#3
+b0 J
+b0 d
+b0 f
+b0 n
+b0 l
+b0 m
+b0 N
+b0 c
+b0 j
+b0 O
+b0 ]
+b0 k
+b11 P
+b11 W
+b11 X
+15
+04
+03
+12
+b0 /
+b0 @
+b0 F
+b0 _
+b1 0
+b1 ?
+b1 E
+b1 Y
+b1 1
+b1 >
+b1 D
+b1 V
+b0 =
+1%
 #4
-b110 !
-b110 )
-1$
+0%
+0'
+#5
+b1001 J
+b1001 d
+b1001 f
+b1001 n
+b1001 m
+b11 O
+b11 ]
+b11 k
+b110 l
+b11 N
+b11 c
+b11 j
+b11 K
+b11 \
+b11 b
+b11 i
+1%
 #6
-0$
-b110 '
-b1001 (
-b11 #
-b11 &
+0%
+1&
+#7
+14
+02
+b1 =
+1%
 #8
-b1001 !
-b1001 )
-1$
+0%
+#9
+b11011 J
+b11011 d
+b11011 f
+b11011 n
+b1100 l
+b11011 m
+b1001 N
+b1001 c
+b1001 j
+04
+13
+b11 /
+b11 @
+b11 F
+b11 _
+b0 0
+b0 ?
+b0 E
+b0 Y
+b10 =
+b1001 M
+b1001 Z
+b1001 `
+b1001 e
+1%
+0&
 #10
+0%
+#11
+b110 J
+b110 d
+b110 f
+b110 n
+b10 O
+b10 ]
+b10 k
+b101 l
+b110 m
+b11 N
+b11 c
+b11 j
+b10 P
+b10 W
+b10 X
+14
+03
+b0 /
+b0 @
+b0 F
+b0 _
+b10 1
+b10 >
+b10 D
+b10 V
+b11011 !
+b11011 ,
+b11011 .
+b11011 H
+b11011 L
+b11011 [
+b11011 a
+b11011 g
+b11 =
+1%
+#12
+0%
+#13
+b100001 J
+b100001 d
+b100001 f
+b100001 n
+b11011 N
+b11011 c
+b11011 j
+b100001 l
+b10100010 m
+b110 O
+b110 ]
+b110 k
+05
+04
+13
+b10 /
+b10 @
+b10 F
+b10 _
+b11 0
+b11 ?
+b11 E
+b11 Y
+b100 =
+b110 M
+b110 Z
+b110 `
+b110 e
+1%
+#14
+0%
+#15
+b11 O
+b11 ]
+b11 k
+b11 P
+b11 W
+b11 X
+b0 0
+b0 ?
+b0 E
+b0 Y
+b11 1
+b11 >
+b11 D
+b11 V
+b100100 J
+b100100 d
+b100100 f
+b100100 n
+b100100 l
+b1100011 m
+b100001 N
+b100001 c
+b100001 j
+b100001 !
+b100001 ,
+b100001 .
+b100001 H
+b100001 L
+b100001 [
+b100001 a
+b100001 g
+b101 =
+1%
+#16
+0%
+#17
+b0 O
+b0 ]
+b0 k
+b0 P
+b0 W
+b0 X
+03
+b0 /
+b0 @
+b0 F
+b0 _
+b0 1
+b0 >
+b0 D
+b0 V
+b11 J
+b11 d
+b11 f
+b11 n
+b11 l
+b0 m
+b11 N
+b11 c
+b11 j
+b110 =
+b100100 !
+b100100 ,
+b100100 .
+b100100 H
+b100100 L
+b100100 [
+b100100 a
+b100100 g
+1%
+#18
+0%
+#19
+b1001 J
+b1001 d
+b1001 f
+b1001 n
+b110 l
+b1001 m
+b11 O
+b11 ]
+b11 k
+b11 P
+b11 W
+b11 X
+15
+12
+b1 0
+b1 ?
+b1 E
+b1 Y
+b1 1
+b1 >
+b1 D
+b1 V
+b0 =
+1%

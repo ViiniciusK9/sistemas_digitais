@@ -12,11 +12,14 @@ module registrador_16b(clk, l, d, q);
         q = 16'b0000000000000000;
     end
 
-    always @(posedge clk and l == 1) begin 
-        q = d;
+    always @(posedge clk) begin 
+        if (l == 1) begin
+            q = d;
+        end
     end
 endmodule
 
+/*
 
 module testbench;
 
@@ -43,3 +46,5 @@ module testbench;
     end
 
 endmodule
+
+*/

@@ -12,7 +12,7 @@ module multiplexador_4x1_16b(entrada_0, entrada_1, entrada_2, entrada_3, entrada
 
     // funcionamento do circuito
 
-    always @(entrada_controle) begin
+    always @(entrada_controle or entrada_0 or entrada_1 or entrada_2 or entrada_3) begin
         case (entrada_controle)
             2'b00: saida = entrada_0;
             2'b01: saida = entrada_1;
@@ -21,6 +21,8 @@ module multiplexador_4x1_16b(entrada_0, entrada_1, entrada_2, entrada_3, entrada
         endcase
     end 
 endmodule
+
+/*
 
 module testbench;
 
@@ -51,4 +53,4 @@ module testbench;
 
 endmodule
 
-    
+*/

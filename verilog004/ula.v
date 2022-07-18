@@ -14,7 +14,7 @@ module ula(e0, e1, h, s);
     assign soma = e0 + e1;
     assign mult = e0 * e1;
 
-    always @(h) begin
+    always @(h or e0 or e1) begin
         case (h)
             1'b0:  s = soma;
             1'b1:  s = mult;
@@ -22,6 +22,7 @@ module ula(e0, e1, h, s);
     end 
 endmodule
 
+/*
 module testbench;
 
     reg [15:0] ee0 = 16'b0000000000000011;
@@ -47,3 +48,4 @@ module testbench;
         $finish;
     end
 endmodule
+*/

@@ -1,6 +1,8 @@
+`include "multiplexador_4x1_16b.v"
+`include "registrador_16b.v"
+`include "ula.v"
 
-
-module BO(
+module BO(a, b, c, x, m0, m1, m2, lx, ls, lh, h, clk, resultado);
     // entradas
     input [15:0] a;
     input [15:0] b;
@@ -16,8 +18,8 @@ module BO(
     input clk;
 
     // saidas
-    output reg [15:0] resultado;
-);
+    output [15:0] resultado;
+
     // constante
     parameter exx = 16'b0000000000000000;
 
@@ -47,7 +49,7 @@ module BO(
     registrador_16b re_s(clk, ls, u0_to_re, re_s_to_mu);
     registrador_16b re_h(clk, lh, u0_to_re, re_h_to_mu);
 
-    resultado = re_s_to_mu;
+    assign resultado = re_s_to_mu;
 
 endmodule
     

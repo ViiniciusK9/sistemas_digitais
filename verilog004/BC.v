@@ -1,11 +1,16 @@
-module BC (
+module BC (inicio, clk, rst, m0, m1, m2, lx, ls, lh, h);
+
     // entradas
     input inicio, clk, rst;
 
     // saidas
-    output m0, m1, m2, lx, ls, lh, h;
-);
-    parameter s0 = 3b'000, s1 = 3b'001, s2 = 3b'010, s3 = 3b'011, s4 = 3b'100, s5 = 3b'101, s6 = 3b'110, s7 = 3b'111;
+    output reg [1:0] m0;
+    output reg [1:0] m1;
+    output reg [1:0] m2;
+    output reg lx, ls, lh, h;
+
+    parameter s0 = 3'b000, s1 = 3'b001, s2 = 3'b010, s3 = 3'b011, s4 = 3'b100, s5 = 3'b101, s6 = 3'b110;
+
     reg [2:0] estado;
 
     always @(posedge clk) begin
